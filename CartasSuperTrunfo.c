@@ -2,7 +2,8 @@
 
 int main() {
  float area;         // area da cidadede em km²
- float pib;          // PIB de cada cidade em milhões
+ double pib;          // PIB de cada cidade em milhões
+ double pib_per_capita , densidade_populacional;
  int pontos_turisticos; // numero de pontos turisticos
  char codigo[100];    // codigo da cidade,A01,A02,A03...
  int populacao;      // pupulação da cidade e estado
